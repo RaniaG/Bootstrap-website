@@ -1,0 +1,42 @@
+.u-uppercase{
+    text-transform: uppercase;
+}
+.u-color-white{
+    color:white;
+}
+.u-color-red{
+    color:$color_red;
+}
+.u-color-grey{
+    color:$color_grey;
+}
+.u-color-black{
+    color:black;
+}
+.u-color-grey-dark{
+    color:$color_grey_dark;
+}
+.u-color-grey-3{
+    color:$color_grey_3;
+}
+.u-bold-s{
+    font-weight: 600;
+}
+.u-bold-m{
+    font-weight: 700;
+}
+.u-bold-l{
+    font-weight: 800;
+}
+.u-mt-s{
+    margin-top: 3rem;
+}
+.u-mt-m{
+    margin-top: 6rem;
+}
+.u-mt-l{
+    margin-top: 9rem;
+}
+.u-center-text{
+    text-align: center;
+}

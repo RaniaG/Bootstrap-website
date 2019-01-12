@@ -1,0 +1,29 @@
+@keyframes exit{
+    0%{
+        left:0%;
+        visibility: visible;    
+    }
+    20%{
+        left:3%;
+    }
+    100%{
+        left:-300%;
+        visibility: hidden;
+    }
+}
+@keyframes enter{
+    0%{
+        left:300%;
+        visibility: hidden;
+    }
+    80%{
+        left:-3%;
+        visibility: visible;
+
+    }
+    100%{
+        left:0%;
+        visibility: visible;
+
+    }
+}

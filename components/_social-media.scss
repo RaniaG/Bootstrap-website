@@ -1,0 +1,15 @@
+.social-media{
+    border-radius: 100%;
+    background-color: $color_blue_light;
+    color:$color_primary;
+    width:8.5rem;
+    height:8.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &:hover{
+    background-color: $color_blue_dark;
+    color:$color_blue_light;
+    text-decoration: none;
+    }
+}

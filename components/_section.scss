@@ -1,0 +1,13 @@
+.section{
+    padding-top:12.2rem;
+    padding-bottom: 12.2rem;
+    &--pad-top{
+        padding-bottom: 0;
+    }
+    &--red{
+        background-color: $color_red;
+    }
+    &--dark{
+        background-color: $color_primary;
+    }
+}

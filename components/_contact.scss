@@ -1,0 +1,24 @@
+.contact{
+    &__header{
+        font-size: 2rem;
+        font-weight: 600;
+        color:$color_grey_4;
+        text-transform: uppercase;
+        
+    }
+    &__info{
+        font-size: 1.5rem;
+        font-weight: 400;
+        color:$color_grey;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+    }
+    input:not([type='button']), textarea{
+        border:1px solid $color_grey_5;
+        padding-top:1.5rem;
+        padding-bottom:1.5rem;
+        margin-bottom: 3rem;
+        font-size: 1.4rem;
+        font-family: $font-2;     
+    }
+}

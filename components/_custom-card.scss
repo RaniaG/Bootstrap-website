@@ -1,0 +1,76 @@
+.custom-card{
+    &--vertical{
+        display: flex;
+        align-items: center;
+        // width:20rem;
+        flex-flow: column;
+        text-align: center;
+        &__title{
+            margin-top:2rem;
+            margin-bottom:1rem;
+            font-size: 1.8rem;
+            font-weight: 600;
+        }
+    }
+    &--white{
+        color:white
+    }
+    &--horizontal-1{
+        &__title{
+            font-size:2rem;
+            font-weight: 400;
+            text-transform: uppercase;
+            color:$color_grey_4;
+        }
+        &__content{
+            color:$color_grey_3;
+            font-size:1.5rem;
+            font-weight: 400;
+        }
+        &__img{
+            border-radius: 100%;
+            background-color: $color_red;
+            color:white;
+            height:12rem;
+            width:12rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            &-container{
+                border-right:1px solid $color_grey;
+            }
+        }
+    }
+    &--horizontal-2{
+        &__title{
+            font-size:2rem;
+            font-weight: 400;
+            text-transform: uppercase;
+            color:$color_grey_4;
+        }
+        &__sub-title{
+            font-size:1.6rem;
+            font-weight: 400;
+            color:$color_grey_4;
+        }
+        &__content{
+            color:$color_grey_3;
+            font-size:1.5rem;
+            font-weight: 400;
+        }
+        &__img{
+            background-color: $color_red;
+            color:white;
+            height:12rem;
+            width:12rem;
+            display: flex;
+            text-align: center;
+            align-items: center;
+            &-container{
+                border-right:1px solid $color_grey;
+            }
+        }
+    }
+
+    
+}

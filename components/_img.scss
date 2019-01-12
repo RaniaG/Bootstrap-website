@@ -1,0 +1,74 @@
+.img{
+    &--circle{
+        border-radius: 100%;
+        width:inherit;
+    }
+    &--effect{
+        &-cupboard{
+            position: relative;
+            overflow: hidden;
+            &:before{
+                position: absolute;
+                content:"";
+                width:50%;
+                height: 100%;
+                top:0px;
+                left:-50%;
+                background-color:$color_blue_dark;
+                filter:opacity(50%);
+                transition-duration: 0.2s;
+            }
+            &:after{
+                position: absolute;
+                content:"";
+                width:50%;
+                height: 100%;
+                top:0px;
+                left:100%;
+                background-color:$color_blue_dark;
+                filter:opacity(50%);
+                transition-duration: 0.2s;
+            }
+            &:hover{
+                &:before{
+                    left:0%;
+                }
+                &:after{
+                    left:50%;
+                }
+            }
+        }
+        &-icons{
+            position: relative;
+            overflow: hidden;
+            .fas{
+                position: absolute;
+                color:white;
+                z-index: 2;
+                background-color: black;
+                padding:1.5rem;
+                border-radius: 50%;
+                top:50%;
+                transform: translateY(-50%);
+                transition-duration: 0.2s;
+                &:nth-child(2){
+                    left:100%;
+                }  
+                &:nth-child(3){
+                    right:100%;
+                }   
+            }
+            &:hover{
+                .fas{
+                    &:nth-child(2){
+                        left:50%;
+                    }  
+                    &:nth-child(3){
+                        right:50%;
+                    } 
+                }
+            }
+        }
+    }
+
+}
